@@ -2,6 +2,10 @@
 
 A classic Snake game built with HTML, CSS, and vanilla JavaScript. The player controls a snake on a grid, collects food to grow and increase the score, and tries to avoid hitting the wall or the snake's own body.
 
+## Live Link
+
+    https://vishalloop.github.io/JavaScript-playground/Snake_Game/
+
 ## Preview
 
 ### Desktop
