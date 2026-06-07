@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <section class="allElems">
+        <nav>
+          <div class="nav-heading">Productivity Dashboard</div>
+          <div class="theme">Change Theme</div>
+        </nav>
+        <section class="weather">
+          <div class="weather1">
+            <div class="weather1-up">
+              <div class="weather-date"></div>
+              <div class="weather-time"></div>
+            </div>
+            <div class="weather1-down">
+              <div class="weather-city"></div>
+            </div>
+          </div>
+          <div class="weather2">
+              <div class="weather-temp"></div>
+              <div class="weather-condition"></div>
+          </div>
+        </section>
+
+        <section class="cards">
+          <div class="todo elem" id="0">
+            <img
+              src="https://plus.unsplash.com/premium_vector-1736749053747-55f958915509?q=80&w=792&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <p>To Do List</p>
+          </div>
+          <div class="daily-planner elem" id="1">
+            <img
+              src="https://images.unsplash.com/photo-1770816307489-86c2d684ace7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <p>Daily Planner</p>
+          </div>
+          <div class="motivation elem" id="2">
+            <img
+              src="https://images.unsplash.com/photo-1769697705387-591bfddc2861?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <p>Motivation</p>
+          </div>
+          <div class="pomodoro elem" id="3">
+            <img
+              src="https://images.unsplash.com/photo-1769784496924-dd5a8e08e8f3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
+            <p>Pomodoro Time</p>
+          </div>
+        </section>
+      </section>
+      <section class="eachElem">
+        <div class="todo each" id="0">
+          <div class="head">
+            <h1>Your Personalized Task List</h1>
+            <p class="close">Close</p>
+          </div>
+
+          <div class="tail">
+            <form class="add-task">
+              <input
+                type="text"
+                class="enter-task"
+                placeholder="Enter Task"
+                required
+              />
+              <textarea
+                class="enter-details"
+                placeholder="Enter Details"
+              ></textarea>
+              <label>
+                <input type="checkbox" value="imp" class="checkbox" />
+                Mark as Important!
+              </label>
+              <button class="btn-task">Add Task</button>
+            </form>
+            <div class="show-task"></div>
+          </div>
+        </div>
+        <div class="daily-planner each" id="1">
+          <div class="head">
+            <h1>Plan Your Day To be More Productive</h1>
+            <p class="close">Close</p>
+          </div>
+          <div class="daily-planner-tail"></div>
+        </div>
+        <div class="motivation each" id="2">
+          <div class="head">
+            <h1>Motivation</h1>
+            <p class="close">Close</p>
+          </div>
+
+          <div class="mot-tail">
+            <div class="mot-wrapper">
+              <div class="mot-head">
+                <div class="mot-heading">Quote Of The Day</div>
+                <div class="mot-img"><img src="./quote.png" alt="" /></div>
+              </div>
+              <div class="mot-detail"></div>
+              <div class="mot-author"></div>
+            </div>
+          </div>
+        </div>
+        <div class="pomodoro each" id="3">
+          <div class="head">
+            <h1>Study With Me!</h1>
+            <p class="close">Close</p>
+          </div>
+          <div class="pomodoro-tail">
+            <div class="session">
+              <div class="session1">Work Session</div>
+              <div class="session2">Break Session</div>
+            </div>
+            <div class="timer"></div>
+            <div class="pomodoro-buttons">
+              <button class="start-btn">Start</button>
+              <button class="pause-btn">Pause</button>
+              <button class="reset-btn">Reset</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
