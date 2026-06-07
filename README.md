@@ -6,19 +6,19 @@ A collection of hands-on JavaScript projects built with HTML, CSS, and vanilla J
 
 | Project | Description | Key Concepts |
 | --- | --- | --- |
-| [Snake Game](./Project1_Snake_Game) | A classic grid-based snake game with score tracking, timer, game-over modal, and persistent high score. | DOM manipulation, timers, keyboard events, localStorage, collision logic |
-| [Productivity Dashboard](./Project2_Productivity_Dashboard) | A multi-feature dashboard with tasks, day planning, motivation quotes, weather, themes, and a Pomodoro timer. | localStorage, geolocation, fetch APIs, dynamic rendering, theme variables |
-| [Kanban Board](./Project3_Kanban_Board) | A drag-and-drop task board with Todo, In Progress, and Done columns plus saved tasks. | HTML drag-and-drop, modal forms, localStorage, dynamic task creation |
-| [Image Editor](./Project4_Image_Editor) | A browser-based image editor using canvas filters, presets, reset, and PNG download. | Canvas API, file input, image processing, CSS filters, downloads |
+| [Snake Game](./Snake_Game) | A classic grid-based snake game with score tracking, timer, game-over modal, and persistent high score. | DOM manipulation, timers, keyboard events, localStorage, collision logic |
+| [Productivity Dashboard](./Productivity_Dashboard) | A multi-feature dashboard with tasks, day planning, motivation quotes, weather, themes, and a Pomodoro timer. | localStorage, geolocation, fetch APIs, dynamic rendering, theme variables |
+| [Kanban Board](./Kanban_Board) | A drag-and-drop task board with Todo, In Progress, and Done columns plus saved tasks. | HTML drag-and-drop, modal forms, localStorage, dynamic task creation |
+| [Image Editor](./Image_Editor) | A browser-based image editor using canvas filters, presets, reset, and PNG download. | Canvas API, file input, image processing, CSS filters, downloads |
 
 ## Repository Structure
 
 ```text
 HTML_CSS_JS/
-+-- Project1_Snake_Game/
-+-- Project2_Productivity_Dashboard/
-+-- Project3_Kanban_Board/
-+-- Project4_Image_Editor/
++-- Snake_Game/
++-- Productivity_Dashboard/
++-- Kanban_Board/
++-- Image_Editor/
 +-- README.md
 ```
 
