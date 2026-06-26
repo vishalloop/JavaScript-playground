@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="theme.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <div class="top">
+          <div class="choose-immage">
+            <label class="select-img" for="choose">Choose Image</label>
+            <input class="image-in" type="file" name="choose" id="choose" hidden />
+          </div>
+          <div class="reset">Reset</div>
+          <div class="download">Download</div>
+        </div>
+        <div class="bottom">
+          <i class="fa-solid fa-image"></i>
+          <p class="no-image">No Image Selected</p>
+          <!-- <div class="show-image">
+          </div> -->
+          <canvas class="draw-image"></canvas>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right-heading">Filters</div>
+        <div class="filter-category">
+        </div>
+        <div class="presets">
+            <button data-preset="normal">Normal</button>
+  <button data-preset="warm">Warm</button>
+  <button data-preset="cinematic">Cinematic</button>
+  <button data-preset="bw">B&W</button>
+  <button data-preset="vintage">Vintage</button>
+</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
